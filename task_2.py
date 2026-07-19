@@ -1,11 +1,11 @@
+# Создаём класс
 class Tester:
-
-    def __init__(self, name, deadline=True):
+    def __init__(self, name):
         self.name = name
-        self.deadline = deadline
 
+    # метод проверки параметра deadline
     def work_hard(self, deadline=True):
-        if self.deadline:
+        if deadline:
             print(self.name, 'Что ж, ещё часок поработаю!')
         else:
             print(self.name, 'Можно отдыхать')

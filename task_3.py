@@ -13,7 +13,7 @@ for year, country_name in world_champions.items():
 
 # исправлено условие проверки
 country = 'Италия'
-if country in world_champions:
+if country in world_champions.values():
     print('Италия cтановилась чемпионом мира по футболу в 21 веке!')
 else:
     print('Италия не выигрывала чемпионат мира по футболу в 21 веке.')
